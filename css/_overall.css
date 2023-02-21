@@ -1,6 +1,6 @@
 .container {
-  min-width: 1626px;
-	padding: 0 30px;
+	max-width: 101.625rem;
+	padding: 0 1.875rem;
 	margin: 0 auto;
 }
 
@@ -10,4 +10,40 @@
 
 .flex {
 	display: flex;
+}
+
+.btn-reset {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+	display: none;
+}
+
+.section-title {
+	font-weight: 700;
+	font-size: 4rem;
+	line-height: 5rem;
+	color: var(--dark-color);
+}
+
+.section-title--center {
+	text-align: center;
+	max-width: none;
+}
+
+.btn {
+	font-weight: 800;
+	font-size: .75rem;
+	letter-spacing: .136rem;
+	text-transform: uppercase;
+	border-radius: .5rem;
+	color: var(--white-color);
+	padding: 2.063rem 5rem;
 }
